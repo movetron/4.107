@@ -1,14 +1,10 @@
-﻿using System;
+using System;
 
-namespace _3in1
-{
-    class Program
+class Program
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("\nЗадание 4.107 ");
-
+        
             Console.WriteLine("Введите номер месяца");
             int mounthN = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите год");
@@ -44,5 +40,4 @@ namespace _3in1
 
 
         }
-    }
 }
