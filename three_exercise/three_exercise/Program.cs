@@ -5,12 +5,12 @@ class Program
         static void Main(string[] args)
         {
         
-            Console.WriteLine("Введите номер месяца");
-            int mounthN = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите год");
+            Console.WriteLine("Введите номер месяца:");
+            int mounth = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите год:");
             int year = Convert.ToInt32(Console.ReadLine());
 
-            switch (mounthN)
+            switch (mounth)
             {
                 case 1: Console.Write("Январь - 31 день"); break;
                 case 2:
