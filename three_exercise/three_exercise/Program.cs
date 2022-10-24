@@ -12,27 +12,27 @@ class Program
 
             switch (mounthN)
             {
-                case 1: Console.Write("\nЯнварь - 31 день"); break;
+                case 1: Console.Write("Январь - 31 день"); break;
                 case 2:
                     if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0))
                     {
-                        Console.Write("\nФевраль - 29 дней");
+                        Console.Write("Февраль - 29 дней");
                     }
                     else
                     {
-                        Console.Write("\nФевраль - 28 дней");
+                        Console.Write("Февраль - 28 дней");
                     }
                     break;
-                case 3: Console.Write("\nМарт - 31 день"); break;
-                case 4: Console.Write("\nАпрель - 30 дней"); break;
-                case 5: Console.Write("\nМай - 31 день"); break;
-                case 6: Console.Write("\nИюнь - 30 дней"); break;
-                case 7: Console.Write("\nИюль - 31 день"); break;
-                case 8: Console.Write("\nАвгуст - 31 день"); break;
-                case 9: Console.Write("\nСентябрь - 30 дней"); break;
-                case 10: Console.Write("\nОктябрь - 31 день"); break;
-                case 11: Console.Write("\nНоябрь - 30 дней"); break;
-                case 12: Console.Write("\nДекабрь - 31 день"); break;
+                case 3: Console.Write("Март - 31 день"); break;
+                case 4: Console.Write("Апрель - 30 дней"); break;
+                case 5: Console.Write("Май - 31 день"); break;
+                case 6: Console.Write("Июнь - 30 дней"); break;
+                case 7: Console.Write("Июль - 31 день"); break;
+                case 8: Console.Write("Август - 31 день"); break;
+                case 9: Console.Write("Сентябрь - 30 дней"); break;
+                case 10: Console.Write("Октябрь - 31 день"); break;
+                case 11: Console.Write("Ноябрь - 30 дней"); break;
+                case 12: Console.Write("Декабрь - 31 день"); break;
             }
 
 
