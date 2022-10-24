@@ -9,4 +9,5 @@
 1) год не является високосным (см. задачу 4.65); 
 2) год может быть високосным (информация об этом вводится с клавиатуры).
 
-![4](https://user-images.githubusercontent.com/85027066/197574880-6c7a3483-f1dd-4621-834e-fcdb80b8a0ef.png)
+![56](https://user-images.githubusercontent.com/85027066/197575192-bf0e65d7-5cbc-4318-ab10-9824fac7a80f.png)
+
